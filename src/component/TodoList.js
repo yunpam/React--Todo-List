@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import TodoItem from '../component/TodoItem'
+
 export default class TodoList extends Component {
     render() {
         const {items, handleDelete, handleEdit,clearList}= this.props
