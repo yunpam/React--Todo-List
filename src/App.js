@@ -10,10 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
   state = {
-    items: [
-      { id: 1, title: 'wake up' },
-      { id: 2, title: 'make breakfast' }
-    ],
+    items: [],
     id: uuid(),
     item: '',
     editItem: false,
